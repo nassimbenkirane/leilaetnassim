@@ -1,0 +1,46 @@
+// File: assets/main.scss
+// 1. Import the initial variables
+@import "~bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+
+// Update blue
+$blue: #72d0eb;
+// Add pink and its invert
+$palegreen: #a1dbb2;
+$palegreen-invert: #fff;
+
+// Add cream
+$cream: #fee5ad;
+
+// Add a serif family
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Cormorant+Garamond|Rochester');
+
+$family-cursive: "Dancing Script", cursive;
+$family-serif: 'Cormorant Garamond', serif;
+
+.is-cursive {
+  font-family: $family-cursive;
+}
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $palegreen;
+$primary-invert: $palegreen-invert;
+// Use the existing orange as the danger color
+$danger: $orange;
+// Use the new serif family
+$family-primary: $family-serif;
+
+// 4. Import the rest of Bulma
+@import "~bulma/bulma";
+
+// transition duration
+.page-enter-active, .page-leave-active {
+  transition: all 5s ease-out;
+}
+/* entering start */
+.page-enter {
+  opacity: 0;
+}
+
