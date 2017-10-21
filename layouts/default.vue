@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero/>
-    <nuxt/>
+    <nuxt ref="page"/>
   </div>
 </template>
 

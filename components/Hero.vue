@@ -15,8 +15,16 @@
 import MainNavbar from '~/components/MainNavbar.vue'
 
 export default {
+  data: () => {
+    return {
+
+    }
+  },
   components: {
     MainNavbar
+  },
+  mounted () {
+    console.log(this.$refs.page)
   }
 }
 </script>

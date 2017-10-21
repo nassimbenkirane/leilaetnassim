@@ -34,13 +34,19 @@ module.exports = {
         })
       }
     },
-    postcss: {
-      plugins: {
-        'postcss-custom-properties': {
-          warnings: false
-        }
+    // Customize postcss-cssnext default options
+    'postcss-cssnext': {
+      features: {
+        customProperties: false
       }
     }
+    // postcss: {
+    //   plugins: {
+    //     'postcss-custom-properties': {
+    //       warnings: false
+    //     }
+    //   }
+    // }
   },
   css: [
     { src: '~assets/main.scss', lang: 'scss' },
