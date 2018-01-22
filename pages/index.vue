@@ -1,11 +1,14 @@
 <template>
   <section class="section has-text-centered">
-    <div class="container">
+    <div class="container is-size-5">
       <logo/>
       <h2 class="title is-size-3 has-text-weight-normal is-cursive">
         Bienvenue sur le site de notre mariage !
       </h2>
-      <h3 class="is-size-6">En cours de création</h3>
+      <p>
+        Nous sommes ravis de vous compter parmi nos invités <br>
+        et de partager avec vous ce moment de bonheur
+      </p>
     </div>
   </section>
 </template>

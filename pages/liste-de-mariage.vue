@@ -2,13 +2,11 @@
   <section class="section has-text-centered">
     <div class="container is-size-5">
       <h1 class="is-size-3 is-cursive">
-        Confirmez votre presence
+        Voici notre liste de mariage
       </h1>
       <section class="section">
-        <p>
-          Nous vous remercions de nous confirmer votre présence avant le
-          <span class="is-cursive">1er mars 2018</span>
-        </p>
+        <br/>
+        <a class="button is-primary" href="https://www.ameliste.fr/list/list?site=leilaetnassim" target="_blank">Accéder à notre liste de mariage</a>
       </section>
     </div>
   </section>

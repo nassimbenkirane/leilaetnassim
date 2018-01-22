@@ -11,18 +11,21 @@
     </div>
     <div class="navbar-menu has-text-centered"
       v-bind:class="{ 'is-active': navbarActive }">
-      <a class="navbar-item has-text-weight-semibold" href="/">
+      <router-link to="/" class="navbar-item has-text-weight-semibold">
         Accueil
-      </a>
-      <a class="navbar-item has-text-weight-semibold" href="/informations">
+      </router-link>
+      <router-link to="/informations" class="navbar-item has-text-weight-semibold">
         Informations
-      </a>
-      <a class="navbar-item has-text-weight-semibold" href="/rsvp">
+      </router-link>
+      <router-link to="/hebergements" class="navbar-item has-text-weight-semibold">
+        Hébergements
+      </router-link>
+      <router-link to="/rsvp" class="navbar-item has-text-weight-semibold">
         RSVP
-      </a>
-      <a class="navbar-item has-text-weight-semibold" href="#">
+      </router-link>
+      <router-link to="/liste-de-mariage" class="navbar-item has-text-weight-semibold" >
         Liste de mariage
-      </a>
+      </router-link>
     </div>
   </nav>
 </template>

@@ -44,12 +44,32 @@ $family-primary: $family-serif;
 // 4. Import the rest of Bulma
 @import "~bulma/bulma";
 
-// transition duration
+
+
 .page-enter-active, .page-leave-active {
-  transition: all 5s ease-out;
+  transition: opacity .4s
 }
-/* entering start */
-.page-enter {
-  opacity: 0;
+.page-enter, .page-leave-active {
+  opacity: 0
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.section.page {
+  flex-grow: 1;
+}
+
+.button {
+  font-weight: bold;
+}
+
+.embeded_map {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 600px;
+  height: 250px;
+}

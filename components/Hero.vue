@@ -2,9 +2,9 @@
   <section class="hero is-primary">
     <div class="hero-body has-text-centered">
       <div class="container">
-        <h1 class="is-size-2 is-cursive">
-          Leïla & Nassim
-        </h1>
+        <router-link tag="h1" class="is-size-2 is-cursive" to="/">
+            Leïla & Nassim
+        </router-link>
       </div>
     </div>
     <main-navbar/>
