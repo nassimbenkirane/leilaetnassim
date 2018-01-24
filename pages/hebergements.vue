@@ -14,7 +14,7 @@
         <br/>
         <br/>
         <h3 class="title is-size-5">
-          <a href="https://www.airbnb.fr/" target="_blank">Logements Airbnb</a>
+          <a href="https://www.airbnb.fr/s/Casablanca--Grand-Casablanca--Maroc/homes?checkin=2018-04-20&checkout=2018-04-23" target="_blank">Logements Airbnb</a>
           <p class="has-text-weight-normal">N'hesitez pas à nous contacter pour des renseignements sur la localisation</p>
         </h3>
         <h3 class="title is-size-5">
@@ -24,7 +24,7 @@
           <a href="https://www.bestwestern.fr/fr/hotel-Casablanca-Best-Western-Hotel-Toubkal-93492" target="_blank">Hotel Best Western Hotel Toubkal</a>
         </h3>
         <h3 class="title is-size-5">
-          <a href="https://www.hotelsatlas.com/en/hotels-morocco/casablanca/atlas-city-9" target="_blank">Hotel Atlas Almohades Casablanca City Center</a>
+          <a href="https://www.hotelsatlas.com/fr/hotels-morocco/casablanca/atlas-city-9" target="_blank">Hotel Atlas Almohades Casablanca City Center</a>
         </h3>
         <h3 class="title is-size-5">
           <a href="https://www.accorhotels.com/fr/hotel-6811-sofitel-casablanca-tour-blanche/index.shtml" target="_blank">Sofitel Casablanca</a>
