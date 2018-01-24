@@ -11,7 +11,7 @@
         <p>Nous aurons le bonheur de nous marier le</p>
         <p class="is-cursive">7 avril 2018 à 13h30</p>
         <p>à la mairie du XIIIème arrondissement de Paris.</p>
-        <p>La cérémonie sera suivie d'un cocktail</p>
+        <p>La cérémonie sera suivie d'un cocktail.</p>
         <iframe
           class="embeded_map"
           frameborder="0" style="border:0"

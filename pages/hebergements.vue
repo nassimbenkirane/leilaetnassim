@@ -6,18 +6,29 @@
       </h1>
       <section class="section">
         <p>
-          Ne tardez pas (trop) à réserver vos nuits
+          Ne tardez pas (trop) à réserver vos nuits, il s'agit de vacances scolaires
         </p>
         <p>
           Voici une liste non exhaustive d'options d'hébergements à Casablanca
         </p>
         <br/>
         <br/>
-        <h3 class="title is-size-5">Logements Airbnb</h3>
-        <h3 class="title is-size-5">Hotel Lido</h3>
-        <h3 class="title is-size-5">Hotel Best Western Hotel Toubkal</h3>
-        <h3 class="title is-size-5">Atlas Almohades Casablanca City Center</h3>
-        <h3 class="title is-size-5">Sofitel Casablanca</h3>
+        <h3 class="title is-size-5">
+          <a href="https://www.airbnb.fr/" target="_blank">Logements Airbnb</a>
+          <p class="has-text-weight-normal">N'hesitez pas à nous contacter pour des renseignements sur la localisation</p>
+        </h3>
+        <h3 class="title is-size-5">
+          <a href="http://www.hotel-casablanca-lido.com" target="_blank">Hotel Lido</a>
+        </h3>
+        <h3 class="title is-size-5">
+          <a href="https://www.bestwestern.fr/fr/hotel-Casablanca-Best-Western-Hotel-Toubkal-93492" target="_blank">Hotel Best Western Hotel Toubkal</a>
+        </h3>
+        <h3 class="title is-size-5">
+          <a href="https://www.hotelsatlas.com/en/hotels-morocco/casablanca/atlas-city-9" target="_blank">Hotel Atlas Almohades Casablanca City Center</a>
+        </h3>
+        <h3 class="title is-size-5">
+          <a href="https://www.accorhotels.com/fr/hotel-6811-sofitel-casablanca-tour-blanche/index.shtml" target="_blank">Sofitel Casablanca</a>
+        </h3>
       </section>
     </div>
   </section>
