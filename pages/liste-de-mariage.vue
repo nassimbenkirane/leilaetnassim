@@ -5,7 +5,6 @@
         Voici notre liste de mariage
       </h1>
       <section class="section">
-        <br/>
         <a class="button is-primary" href="https://www.ameliste.fr/list/list?site=leilaetnassim" target="_blank">Accéder à notre liste de mariage</a>
       </section>
     </div>
