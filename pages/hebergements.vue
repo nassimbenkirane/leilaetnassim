@@ -21,7 +21,7 @@
           <a href="http://www.hotel-casablanca-lido.com" target="_blank">Hotel Lido</a>
         </h3>
         <h3 class="title is-size-5">
-          <a href="https://www.bestwestern.fr/fr/hotel-Casablanca-Best-Western-Hotel-Toubkal-93492" target="_blank">Hotel Best Western Hotel Toubkal</a>
+          <a href="https://www.booking.com/hotel/ma/best-western-toubkal.fr.html" target="_blank">Hotel Best Western Hotel Toubkal</a>
         </h3>
         <h3 class="title is-size-5">
           <a href="https://www.hotelsatlas.com/fr/hotels-morocco/casablanca/atlas-city-9" target="_blank">Hotel Atlas Almohades Casablanca City Center</a>
