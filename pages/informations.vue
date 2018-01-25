@@ -26,7 +26,7 @@
         <p>Pour célébrer notre union, rendez-vous le</p>
         <p class="is-cursive">21 avril 2018 à 20h</p>
         <p>au 109 boulevard de l'Atlantide, à Casablanca (Maroc).</p>
-        <p>Aidez nous à festoyer jusqu'au bout de la nuit !</p>
+        <p>Une invitation à festoyer avec nous jusqu'au bout de la nuit !</p>
         <iframe
           class="embeded_map"
           frameborder="0" style="border:0"
