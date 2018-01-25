@@ -1,5 +1,5 @@
 <template>
-  <img src="~assets/dessin-mariage-site-1200.png"/>
+  <img src="~assets/dessin-mariage-site-1200.jpg"/>
 </template>
 
 <style>
