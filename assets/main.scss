@@ -5,27 +5,25 @@
 // 2. Set your own initial variables
 
 // Add pink and its invert
-$palegreen: #B5D7D1;//#F0AB97;//#89C8AF;//#70C1B3;
+$palegreen: #b5d7d1; //#F0AB97;//#89C8AF;//#70C1B3;
 $palegreen-invert: #fff;
 
 $salmon: #ffbba8;
 $salmon-invert: #fff;
 
-$terracotta: #EF6E5C;
+$terracotta: #ef6e5c;
 $terracotta-invert: #fff;
 $pale-terracotta: #f77e6e;
-
 
 // Add cream
 $cream: #fee5ad;
 
 // Add a serif family
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Cormorant+Garamond|Rochester');
-
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Cormorant+Garamond|Rochester");
 
 $family-cursive: "Dancing Script", cursive;
 //$family-cursive: "Rochester", cursive;
-$family-serif: 'Cormorant Garamond', serif;
+$family-serif: "Cormorant Garamond", serif;
 
 .is-cursive {
   font-family: $family-cursive;
@@ -44,13 +42,13 @@ $family-primary: $family-serif;
 // 4. Import the rest of Bulma
 @import "~bulma/bulma";
 
-
-
-.page-enter-active, .page-leave-active {
-  transition: opacity .4s
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.4s;
 }
-.page-enter, .page-leave-active {
-  opacity: 0
+.page-enter,
+.page-leave-active {
+  opacity: 0;
 }
 
 .main-container {
@@ -72,4 +70,9 @@ $family-primary: $family-serif;
   width: 100%;
   max-width: 600px;
   height: 250px;
+}
+
+.hero.is-primary .navbar-item {
+  margin: 5px 0 10px;
+  border-radius: 4px;
 }
