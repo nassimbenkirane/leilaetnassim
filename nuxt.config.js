@@ -46,5 +46,11 @@ module.exports = {
   css: [
     { src: '~assets/main.scss', lang: 'scss' },
     { src: 'font-awesome/scss/font-awesome.scss', lang: 'scss' }
-  ]
+  ],
+  modules: [
+    '@nuxtjs/sitemap'
+  ],
+  sitemap: {
+    exclude: ['/liste-de-mariage-eloetthomas']
+  }
 }
