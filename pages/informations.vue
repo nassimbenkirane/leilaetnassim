@@ -66,6 +66,19 @@ export default {
   data: () => ({
     google_api_key: config.google_api_key
   }),
-  transition: 'page'
+  transition: 'page',
+  head: {
+    title: 'Leïla et Nassim | Informations',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Dates & Lieux du mariage de Leïla Coquard et Nassim Benkirane'
+      }
+    ],
+    link: [
+      { rel: 'canonical', href: 'https://www.leilaetnassim.fr/informations' }
+    ]
+  }
 }
 </script>

@@ -13,6 +13,19 @@
 
 <script>
 export default {
-  transition: 'page'
+  transition: 'page',
+  head: {
+    title: 'Leïla et Nassim | Liste de mariage',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Voici le lien de la liste de mariage pour Leïla Coquard et Nassim Benkirane'
+      }
+    ],
+    link: [
+      { rel: 'canonical', href: 'https://www.leilaetnassim.fr/liste-de-mariage' }
+    ]
+  }
 }
 </script>

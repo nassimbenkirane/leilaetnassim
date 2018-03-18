@@ -41,6 +41,19 @@ export default {
   components: {
     Logo
   },
-  transition: 'page'
+  transition: 'page',
+  head: {
+    title: 'Leïla et Nassim | Hébergements',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Veuillez trouver quelques propositions pour se loger à Casablanca lors du matiage de Leïla Coquard et Nassim Benkirane'
+      }
+    ],
+    link: [
+      { rel: 'canonical', href: 'https://www.leilaetnassim.fr/hebergements' }
+    ]
+  }
 }
 </script>

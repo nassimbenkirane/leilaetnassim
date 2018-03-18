@@ -20,6 +20,19 @@ export default {
   components: {
     Logo
   },
-  transition: 'page'
+  transition: 'page',
+  head: {
+    title: 'Leïla et Nassim | Accueil',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Bienvenue sue le site du mariage de Leïla Coquard et Nassim Benkirane. Le 07 avril 2018 et le 21 avril 2018'
+      }
+    ],
+    link: [
+      { rel: 'canonical', href: 'https://www.leilaetnassim.fr' }
+    ]
+  }
 }
 </script>
