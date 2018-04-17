@@ -17,6 +17,9 @@
       <router-link to="/informations" class="navbar-item has-text-weight-semibold">
         Informations
       </router-link>
+      <router-link to="/visiter-casablanca" class="navbar-item has-text-weight-semibold">
+        Visiter Casablanca
+      </router-link>
       <router-link to="/hebergements" class="navbar-item has-text-weight-semibold">
         Hébergements
       </router-link>
