@@ -2,9 +2,10 @@
   <section class="section has-text-centered">
     <div class="container is-size-5">
       <h1 class="is-size-3 is-cursive">
-        Visiter le Maroc
+        Informations utiles pour votre visite au Maroc
       </h1>
-      <p>Vous trouverez plus bas des informations pour visiter le Maroc</p>
+      <br/>
+      <p>Vous trouverez ici quelques conseils et des lieux à visiter</p>
       <p>
         Vous pourrez egalement trouver des informations :<br>
         Sur le <a target="_blank" href="http://www.routard.com/guide/code_dest/maroc.htm">Guide du Routard</a><br>
@@ -13,14 +14,14 @@
       <section class="section">
         <h2 class="is-size-4 is-cursive">Informations Pratiques</h2>
         <br>
-        <h4 class="has-text-weight-semibold	">Monnaie</h4>
+        <h4 class="has-text-weight-semibold">Monnaie</h4>
         <p>
           La monnaie au Maroc est le dirham. (1 EUR = 11,34 MAD)<br>
-          En général les frais aux distributeurs sont plus importants qu'aux <br>
+          En général les frais aux distributeurs sont plus importants qu'aux<br>
           bureaux de change
         </p>
         <br>
-        <h4 class="has-text-weight-semibold	">Sécurité</h4>
+        <h4 class="has-text-weight-semibold">Sécurité</h4>
         <p>
           Les précautions à prendre sont les mêmes que vous pouvez rencontrer dans d'autres voyages :<br>
           Il est déconseillé de porter des bijoux de valeur dans la rue.<br>
@@ -28,7 +29,7 @@
           il n'est pas conseillé de se balader à la tombée du jour / durant la nuit.
         </p>
         <br>
-        <h4 class="has-text-weight-semibold	">Transport</h4>
+        <h4 class="has-text-weight-semibold">Transport</h4>
         <p>
           Les taxis rouges sont le moyen de transport de prédilection au Maroc.<br>
           Les voitures sont anciennes, mais ils sont très présents et peu chers<br>
@@ -36,14 +37,15 @@
           De nouveaux services de transports se sont installés, particulièrement à Casablanca.
           <br>
 
-          <span class="is-cursive">Taxi Vert</span> et <span class="is-cursive">Heetch</span> vous permettent de commander votre taxi en ligne pour 10 dirhams (envion 1€) supplémentaires.<br>
+          <span class="is-cursive">Taxi Vert</span> et <span class="is-cursive">Heetch</span> vous permettent de commander votre taxi en ligne.<br>
           <span class="is-cursive">Votre chauffeur</span> est un service qui se veut plus premium.<br>
         </p>
       </section>
       <section class="section">
-        <h2 class="is-size-4 is-cursive">A Visiter</h2>
+        <h2 class="is-size-4 is-cursive">Lieux à Visiter</h2>
+        <p class="is-cursive">Voici quelques lieux à Visiter, à Casablanca, Rabat, Fès et Meknes</p>
         <br>
-        <h4 class="has-text-weight-semibold	">Casablanca</h4>
+        <h4 class="has-text-weight-semibold">Casablanca</h4>
         <ul>
           <li>
             La Mosquée Hassan II, <a target="_blank" href="http://www.mosquee-hassan2.com/tarifs-horaires/">incontournable à Casablanca</a>
@@ -53,7 +55,7 @@
           <li>Le côté art-déco sur le Boulevard Mohammed V</li>
         </ul>
         <br>
-        <h4 class="has-text-weight-semibold	">Rabat</h4>
+        <h4 class="has-text-weight-semibold">Rabat</h4>
         <ul>
           <li>
             La nécropole de Chellah
@@ -64,7 +66,7 @@
           <li>La ville de Salé (juste à côté) avec sa Medina et sa vieille ville bien conservée</li>
         </ul>
         <br>
-        <h4 class="has-text-weight-semibold	">Fès</h4>
+        <h4 class="has-text-weight-semibold">Fès</h4>
         <ul>
           <li>La medina de Fès</li>
           <li>La Medersa Bou Inania, El Jedid</li>
@@ -75,7 +77,7 @@
           <li>Quartier d'El Bali</li>
         </ul>
         <br>
-        <h4 class="has-text-weight-semibold	">Meknes</h4>
+        <h4 class="has-text-weight-semibold">Meknes</h4>
         <ul>
           <li>Le Musée de Dar Jamai</li>
           <li>La Medersa Bou Inania, El Jedid</li>
@@ -85,3 +87,22 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  transition: 'page',
+  head: {
+    title: 'Leïla et Nassim | Visite au Maroc',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Vous trouverez ici quelques conseils et des lieux à visiter au Maroc, notamment à Casablanca, Rabat, Fès et Meknes'
+      }
+    ],
+    link: [
+      { rel: 'canonical', href: 'https://www.leilaetnassim.fr/informations-maroc' }
+    ]
+  }
+}
+</script>
